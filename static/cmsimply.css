@@ -2,7 +2,7 @@
   position: relative;
 }
 header{
-  background: #ccc;
+  background: #444;
   padding: 20px;
 }
 confmenu
@@ -28,7 +28,7 @@ confmenu li a
 	float: left;
 	padding: 5px 10px;
 	color: #fff;
-	background: #333;
+	background: #444;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
@@ -201,6 +201,6 @@ background-color: white;
 width: 195px;
 }
 body {
-  margin-bottom: 120px;
+  background-image:url("http://www.avex.com.tw/shinchanrun/img/popup_shiro.png")
 }
 
