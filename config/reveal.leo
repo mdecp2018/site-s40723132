@@ -22,10 +22,16 @@
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20181019133851.1" a="E"><vh>投影片</vh>
+<v t="leo.20181019133851.1"><vh>投影片</vh>
 <v t="leo.20181019133851.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101193308.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181101193308.2"><vh>投影片</vh>
+<v t="leo.20181101193308.3"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181101193308.4"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -138,10 +144,17 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">### 40723132 分組網際簡報
+<t tx="leo.20180827201621.10">
 
-* CMSimfly 操作
-* Onshape 操作
+##  40723132 分組網際簡報
+
+###  虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://lab.kmol.info/)
+&lt;/small&gt;
+
+[2018 Fall 分組網誌](./../blog/index.html)
 
 
 </t>
@@ -255,7 +268,7 @@ make.start()
 <t tx="leo.20180827201621.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-2018 Fall 分組網際簡報
+ 40723132 分組網際簡報
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -432,6 +445,45 @@ make.start()
 ### 導入影片 template
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181101193308.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101193308.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181101193308.3">###   40723132 分組網際簡報
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://lab.kmol.info/)
+&lt;/small&gt;
+
+[2018 Fall 分組網誌](./../blog/index.html)
+
+
+</t>
+<t tx="leo.20181101193308.4">
+
+###  40723132 分組網際簡報
+
+*CMSimfly 操作
+*Onshape 操作 
+
+
 </t>
 </tnodes>
 </leo_file>
