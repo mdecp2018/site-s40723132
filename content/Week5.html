@@ -1,7 +1,7 @@
 <!doctype html>
 <html><head>
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
-<title>2018 Fall 分組網站</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<title>計算機程式教材</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
 
 <script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
@@ -17,6 +17,7 @@
 <link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>
 
+<!-- for LaTeX equations 暫時不用
 <script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
 <script type="text/javascript">
 init_mathjax = function() {
@@ -37,12 +38,17 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
+-->
+<!-- 暫時不用
 <script src="./../static/fengari-web.js"></script>
 <script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
 <script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
 <script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
 
 <script src="./../static/jquery.js"></script>
 <script type="text/javascript">
@@ -61,7 +67,7 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='操作影片.html'>操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='week8.html'>week8</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Week4 << <a href='Week4.html'>Previous</a> <a href='Week6.html'>Next</a> >> Week6<br /><h1>Week5</h1>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介-1.html'>簡介-1</a><ul><li><a href='CMSimfly 網站-1.html'>CMSimfly 網站-1</a><li><a href='reveal 投影片-1.html'>reveal 投影片-1</a><li><a href='pelican 網誌-1.html'>pelican 網誌-1</a></li></ul><li><a href='操作影片-1.html'>操作影片-1</a><ul><li><a href='Week1-1.html'>Week1-1</a><li><a href='Week2-1.html'>Week2-1</a><li><a href='Week3-1.html'>Week3-1</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='week8.html'>week8</a></li></ul><li><a href='Python 手冊-1.html'>Python 手冊-1</a><li><a href='OnShape 手冊-1.html'>OnShape 手冊-1</a><li><a href='Fusion 360-1.html'>Fusion 360-1</a><li><a href='簡介-2.html'>簡介-2</a><ul><li><a href='CMSimfly 網站-2.html'>CMSimfly 網站-2</a><li><a href='reveal 投影片-2.html'>reveal 投影片-2</a><li><a href='pelican 網誌-2.html'>pelican 網誌-2</a></li></ul><li><a href='操作影片-2.html'>操作影片-2</a><ul><li><a href='Week1-2.html'>Week1-2</a><li><a href='Week2-2.html'>Week2-2</a><li><a href='Week3-2.html'>Week3-2</a><li><a href='Week 4.html'>Week 4</a><li><a href='Week 5.html'>Week 5</a><li><a href='Week 6.html'>Week 6</a></li></ul><li><a href='Python 手冊-2.html'>Python 手冊-2</a><li><a href='OnShape 手冊-2.html'>OnShape 手冊-2</a><li><a href='Fusion 360-2.html'>Fusion 360-2</a></li></ul></nav><section>Week4 << <a href='Week4.html'>Previous</a> <a href='Week6.html'>Next</a> >> Week6<br /><h1>Week5</h1>
 <div>
 <div class="syntaxhighlighter py" id="highlighter_764116">
 <table border="0" cellpadding="0" cellspacing="0" style="width: 531px;">
@@ -72,28 +78,28 @@ $(function(){
 <div class="line number1 index0 alt2"><code class="py comments"># 導入 Ex1 原始碼</code></div>
 <div class="line number2 index1 alt1"><code class="py plain">a </code><code class="py keyword">=</code> <code class="py value">0</code></div>
 <div class="line number3 index2 alt2"><code class="py keyword">def</code> <code class="py plain">my_print(n, input_str):</code></div>
-<div class="line number4 index3 alt1"><code class="py spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="py functions">print</code><code class="py plain">(</code><code class="py string">"以下將重覆列印 '"</code><code class="py plain">, input_str </code><code class="py keyword">+</code> <code class="py string">"' "</code> <code class="py keyword">+</code> <code class="py functions">str</code><code class="py plain">(n) </code><code class="py keyword">+</code> <code class="py string">"次"</code><code class="py plain">)</code></div>
-<div class="line number5 index4 alt2"><code class="py spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="py keyword">for</code> <code class="py plain">i </code><code class="py keyword">in</code> <code class="py functions">range</code><code class="py plain">(n):</code></div>
-<div class="line number6 index5 alt1"><code class="py spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="py functions">print</code><code class="py plain">(i, input_str)</code></div>
-<div class="line number7 index6 alt2">&nbsp;</div>
+<div class="line number4 index3 alt1"><code class="py spaces">    </code><code class="py functions">print</code><code class="py plain">(</code><code class="py string">"以下將重覆列印 '"</code><code class="py plain">, input_str </code><code class="py keyword">+</code> <code class="py string">"' "</code> <code class="py keyword">+</code> <code class="py functions">str</code><code class="py plain">(n) </code><code class="py keyword">+</code> <code class="py string">"次"</code><code class="py plain">)</code></div>
+<div class="line number5 index4 alt2"><code class="py spaces">    </code><code class="py keyword">for</code> <code class="py plain">i </code><code class="py keyword">in</code> <code class="py functions">range</code><code class="py plain">(n):</code></div>
+<div class="line number6 index5 alt1"><code class="py spaces">        </code><code class="py functions">print</code><code class="py plain">(i, input_str)</code></div>
+<div class="line number7 index6 alt2"> </div>
 <div class="line number8 index7 alt1"><code class="py plain">my_print(</code><code class="py value">5</code><code class="py plain">, </code><code class="py string">"Hello World!"</code><code class="py plain">)</code></div>
 <div class="line number9 index8 alt2"><code class="py plain">the_str </code><code class="py keyword">=</code> <code class="py string">"開始學習 Python"</code></div>
 <div class="line number10 index9 alt1"><code class="py plain">num </code><code class="py keyword">=</code> <code class="py functions">input</code><code class="py plain">(</code><code class="py string">"請輸入要列印的次數!"</code><code class="py plain">)</code></div>
 <div class="line number11 index10 alt2"><code class="py plain">my_print(</code><code class="py functions">int</code><code class="py plain">(num), the_str)</code></div>
 <div class="line number12 index11 alt1"><code class="py plain">a </code><code class="py keyword">=</code> <code class="py plain">a </code><code class="py keyword">+</code> <code class="py value">1</code></div>
 <div class="line number13 index12 alt2"><code class="py functions">print</code><code class="py plain">(</code><code class="py string">"("</code> <code class="py keyword">+</code> <code class="py functions">str</code><code class="py plain">(a) </code><code class="py keyword">+</code> <code class="py string">")"</code><code class="py plain">, </code><code class="py string">"_"</code> <code class="py keyword">*</code> <code class="py value">25</code><code class="py plain">)</code></div>
-<div class="line number14 index13 alt1">&nbsp;</div>
+<div class="line number14 index13 alt1"> </div>
 <div class="line number15 index14 alt2"><code class="py keyword">def</code> <code class="py plain">myfun():</code></div>
-<div class="line number16 index15 alt1"><code class="py spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="py keyword">yield</code> <code class="py value">1</code></div>
-<div class="line number17 index16 alt2"><code class="py spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="py keyword">yield</code> <code class="py value">2</code></div>
-<div class="line number18 index17 alt1"><code class="py spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="py keyword">yield</code> <code class="py value">3</code></div>
-<div class="line number19 index18 alt2">&nbsp;</div>
+<div class="line number16 index15 alt1"><code class="py spaces">    </code><code class="py keyword">yield</code> <code class="py value">1</code></div>
+<div class="line number17 index16 alt2"><code class="py spaces">    </code><code class="py keyword">yield</code> <code class="py value">2</code></div>
+<div class="line number18 index17 alt1"><code class="py spaces">    </code><code class="py keyword">yield</code> <code class="py value">3</code></div>
+<div class="line number19 index18 alt2"> </div>
 <div class="line number20 index19 alt1"><code class="py keyword">for</code> <code class="py plain">i </code><code class="py keyword">in</code> <code class="py plain">myfun():</code></div>
-<div class="line number21 index20 alt2"><code class="py spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="py functions">print</code><code class="py plain">(i)</code></div>
-<div class="line number22 index21 alt1">&nbsp;</div>
+<div class="line number21 index20 alt2"><code class="py spaces">    </code><code class="py functions">print</code><code class="py plain">(i)</code></div>
+<div class="line number22 index21 alt1"> </div>
 <div class="line number23 index22 alt2"><code class="py plain">x </code><code class="py keyword">=</code> <code class="py functions">iter</code><code class="py plain">(myfun())</code></div>
 <div class="line number24 index23 alt1"><code class="py plain">y </code><code class="py keyword">=</code> <code class="py functions">list</code><code class="py plain">(myfun())</code></div>
-<div class="line number25 index24 alt2">&nbsp;</div>
+<div class="line number25 index24 alt2"> </div>
 <div class="line number26 index25 alt1"><code class="py plain">a </code><code class="py keyword">=</code> <code class="py plain">a </code><code class="py keyword">+</code> <code class="py value">1</code></div>
 <div class="line number27 index26 alt2"><code class="py functions">print</code><code class="py plain">(</code><code class="py string">"("</code> <code class="py keyword">+</code> <code class="py functions">str</code><code class="py plain">(a) </code><code class="py keyword">+</code> <code class="py string">")"</code><code class="py plain">, </code><code class="py string">"_"</code> <code class="py keyword">*</code> <code class="py value">25</code><code class="py plain">)</code></div>
 <div class="line number28 index27 alt1"><code class="py functions">print</code><code class="py plain">(x.__next__())</code></div>
