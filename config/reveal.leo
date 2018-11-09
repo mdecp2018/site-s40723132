@@ -314,8 +314,8 @@ make.start()
 </t>
 <t tx="leo.20181109120307.1"># 40723132 2A w4 分組投影片
 
- [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
- [Onshape](https://www.onshape.com) 操作
+ * [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
+ * [Onshape](https://www.onshape.com) 操作
 
 </t>
 </tnodes>
