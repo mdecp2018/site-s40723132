@@ -2,13 +2,13 @@
   position: relative;
 }
 header{
-  background-image:url("http://img.soogif.com/FMch6oMlynPkJ52HG2fF9BvEZt6rpItl.gif");
+ 
   padding: 20px;
 }
 confmenu
 {
 	#width: 800px;
-	background: #333;
+	background: #444;
 	margin-bottom: 10px;
 }
 confmenu ul
@@ -201,6 +201,6 @@ background-color: white;
 width: 195px;
 }
 body {
-  background-image:url("http://img.soogif.com/FMch6oMlynPkJ52HG2fF9BvEZt6rpItl.gif");
+  
 }
 
