@@ -23,6 +23,7 @@
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20181109115246.1" a="M"><vh>投影片</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -124,7 +125,9 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10"># 40723132 2a W4 分組投影片</t>
+<t tx="leo.20180827201621.10"># 40723132 2a W4 分組投影片
+
+</t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -308,6 +311,12 @@ make.start()
 @others
     &lt;/script&gt;
 &lt;/section&gt;
+</t>
+<t tx="leo.20181109115246.1"># 40723132 2a W4 分組投影片
+
+[CMSimfly](https://git hub.com/chiamingyen/cmsimfly) 操作
+[Onshape](https://www.onshape.com) 操作
+
 </t>
 </tnodes>
 </leo_file>
